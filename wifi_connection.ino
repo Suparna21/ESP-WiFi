@@ -20,14 +20,12 @@ void setup(){
   wifi_mode();
 }
 
-
 void loop(){
-  
 
 }
 
 
-//This function helps to set ESP as access point
+//This function helps to set ESP in station mode
 void esp_sta(){
   const char* ssid = "SSID";
   const char* password = "password";
